@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Sariqdev</title>
+</head>
+<body>
+     <a href="{% url 'home' %}" >Bosh sahifa</a>
+     <a href="{% url 'about' %}" >About</a>
+     <a href="{% url 'dashboard' %}" >dashboard</a>
+     <a href="{% url 'FAQ' %}" >FAQ</a>
+     {% block content %}
+          
+     {% endblock content %}
+</body>
+</html>
